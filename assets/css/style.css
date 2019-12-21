@@ -9,6 +9,7 @@
     --general_font:'Arial', 'Helvetica Neue', Helvetica, sans-serif
 }
 
+/* For header */
 .topBar{
     color: white;
     background-color: black;
@@ -19,6 +20,31 @@
     width: 10px
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+/* For Form */
 form p{
     padding: 5px 0px;
     margin: 0;
@@ -51,30 +77,8 @@ button{
     font-size: 15px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
 
-  li a:hover {
-    background-color: #111;
-  }
-
+  /* For Footer */
   footer{
     text-align: center;
     background: #777777;
@@ -90,6 +94,7 @@ footer p{
     margin: 0;
 }
 
+/* For gallery */
 #stock1{
     background: url("https://store-images.s-microsoft.com/image/apps.23216.9007199266246289.99eca207-26e7-4c4a-b02f-3ea96d21b37b.f89edb6e-7a3c-44a8-9e93-aac220a9051f?mode=scale&q=90&h=600&w=1200&background=%23288C67") no-repeat center center;
     background-size: cover;
