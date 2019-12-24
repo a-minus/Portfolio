@@ -1,12 +1,5 @@
 :root{
-    --teal:#4aaaa5;
-    --general_font_color:#777777;
-    --main_header:#cccccc;
-    --main_header_border:#666666;
-    --footer_background: #ffffff;
-    --main_content_background: #ececec;
-    --main_content_border: #dddddd;
-    --general_font:'Arial', 'Helvetica Neue', Helvetica, sans-serif
+    --background-color: pink;
 }
 
 /* For header */
